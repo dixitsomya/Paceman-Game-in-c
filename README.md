@@ -1,11 +1,13 @@
-This is a console-based implementation of the classic Pac-Man game in C. It's a simplified version, focusing on basic gameplay mechanics such as movement, score tracking, and collision detection.
-The game contains certain elements as mentioned below:
-Pacman or Cursor: The Cursor is the main element that is not static in the whole game
-Walls: Walls are the same as real walls we can’t move surpassing them.
-Food or Points: These are the elements that need to be collected and added to the main score.
-Demons: These are the entities that need to be avoided in the game.
-Functions which are used in the game are:
-move(): It enables pacman to move in the game. Movement can be up, down, left and right.
-draw(): Prints the game board on the console.
-initialize(): It defines the board at the start of the game. Puts the walls around boundaries and inside the board, places demons at random places and places eatables at the rest of the places.
-when you eat food number of Demon increased
+This is a console-based implementation of Pac-Man in C, focusing on core mechanics like movement, score tracking, and collision detection. It features Pac-Man (or Cursor) as the player-controlled element navigating through a maze filled with walls, points (eatables), and demons.
+
+Key Functions:
+
+move(): Facilitates Pac-Man movement in all directions.
+draw(): Renders the game board on the console.
+initialize(): Sets up the game board with walls, demons, and eatables.
+The game dynamics involve Pac-Man collecting points while avoiding demons. As Pac-Man consumes points, the number of demons increases, heightening the challenge. This implementation offers a simplified version of the classic Pac-Man experience, showcasing fundamental gameplay elements in a console environment.
+
+reduce the line and make content more effective but dont add extra thing
+ChatGPT
+This is a console-based Pac-Man game in C, featuring Pac-Man, walls, points, and demons. Core functions include movement, drawing the game board, and initializing game elements. As Pac-Man collects points, the number of demons increases, intensifying the challenge. This implementation offers a streamlined version of the classic game for a console environment.
+
